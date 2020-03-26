@@ -11,6 +11,8 @@
   - Data\config 파일에서 값을 가져와 whitespace를 제거하고 
   - Config파일에서 불러온 테이블 row를 각각 Dictionary 형태의 Name(key)과 대한 Value(Value)를 저장한다.
   - Config에서 Asset 이름 받아서 Orchestrator의 asset값 찾고, out_Config 에 AssetValue(generic type)를 저장한다.
+  - Config에 OrchestratorQueueName이 있는 경우 out_Config에 QueueName 설정
+  
   
   
   
